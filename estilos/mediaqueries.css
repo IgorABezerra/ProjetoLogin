@@ -6,6 +6,7 @@
     }
     section#login{
         width: 90vw;
+        height: 300px;
     }
     section#login > div#imagem{
         float: left;
@@ -27,6 +28,7 @@
     }
     section#login{
         width: 990px;
+        height: 400px;
     }
     section#login > div#imagem{
         float: right;
@@ -37,7 +39,18 @@
         float: left;
         width: 50%;
     }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+    div.campo > input:fullscreen{
+        height: 100%;
+        transform: translateY(-12px);
     }
 }
